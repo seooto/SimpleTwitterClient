@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context="com.example.simpletwitterclient.MainActivity" >
+
+    <com.example.simpletwitterclient.RefreshableListView
+        android:id="@+id/lv_refresh_list"
+        style="@style/Widget.PullToRefresh.ProgressBar.Horizontal.Center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.simpletwitterclient.RefreshableListView>
+
+</RelativeLayout>
